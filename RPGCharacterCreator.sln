@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGCharacterCreator.Classes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGCharacterCreator.Console", "RPGCharacterCreator.Console\RPGCharacterCreator.Console.csproj", "{5791DAE5-A545-4140-B207-92F063190B79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGCharacterCreator.Tests", "RPGCharacterCreator.Tests\RPGCharacterCreator.Tests.csproj", "{03AFB2E5-55C6-4DE9-B5ED-8F0448B3611B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5791DAE5-A545-4140-B207-92F063190B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5791DAE5-A545-4140-B207-92F063190B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5791DAE5-A545-4140-B207-92F063190B79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03AFB2E5-55C6-4DE9-B5ED-8F0448B3611B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03AFB2E5-55C6-4DE9-B5ED-8F0448B3611B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03AFB2E5-55C6-4DE9-B5ED-8F0448B3611B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03AFB2E5-55C6-4DE9-B5ED-8F0448B3611B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

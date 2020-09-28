@@ -11,9 +11,9 @@ namespace RPGCharacterCreator.Classes
             {
                 charClass = classesLength;
             }
-            else if (charClass < 0)
+            else if (charClass <= 0)
             {
-                charClass = 0;
+                charClass = 1;
             }
             Class = (Classes)charClass;
         }
