@@ -6,6 +6,15 @@ namespace RPGCharacterCreator.Classes
     {
         public Character(int charClass)
         {
+            var classesLength = Enum.GetValues(typeof(Classes)).Length;
+            if (charClass > classesLength)
+            {
+                charClass = classesLength;
+            }
+            else if (charClass < 0)
+            {
+                charClass = 0;
+            }
             Class = (Classes)charClass;
         }
         public Classes Class { get; set; }
@@ -16,9 +25,9 @@ namespace RPGCharacterCreator.Classes
 
         public enum Classes
         {
-            Warrior,
-            Wizard,
-            Archer
+            Warrior = 1,
+            Wizard = 2,
+            Archer = 3
         }
     }    
 }
